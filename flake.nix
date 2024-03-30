@@ -50,7 +50,7 @@
             # remeber to bump this hash when your dependencies change.
             #vendorSha256 = pkgs.lib.fakeSha256;
 
-            vendorSha256 = null;
+            vendorHash = null;
           };
         });
 
