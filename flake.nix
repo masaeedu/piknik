@@ -4,11 +4,6 @@
   # Nixpkgs / NixOS version to use.
   inputs.nixpkgs.url = "nixpkgs/nixos-21.11";
 
-  inputs.flake-compat = {
-    url = github:edolstra/flake-compat;
-    flake = false;
-  };
-
   outputs = { self, nixpkgs, ... }:
     let
 
